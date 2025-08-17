@@ -1,0 +1,32 @@
+VECTOR:
+  vector is a better array think of it like array but with dynamic nature, that resize automatically,
+  and also comes with a lot of methods in itself.
+ 
+  to use it: #include<vector>
+
+---------------------------------------------------------------------------------------------------------
+
+  vector<int> v;                // initializing the vector
+
+  v.push_back(19);              // adding elements at the end
+
+  v.size();                     // count the number of elements in the vector
+
+  cout<<v[1];                   // access like an array
+
+  v.front();                    // return first element
+
+  v.back();                     // return last element
+
+  v.pop_back();                 // delete last element
+
+  vector<int> v(5);             // size==5, all elements initialized == 0
+
+  vector<int> v(5,-1);          // size == 5, all elements initialized == -1
+
+---------------------------------------------------------------------------------------------------------
+
+2-D VECTORS:
+  use to create 2D matrixes. 
+
+  vector<vector<int>> matrix(3, vector<int>(3,0));     // gives a 3x3 matrix with all initialized to 0
